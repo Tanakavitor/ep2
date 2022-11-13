@@ -161,7 +161,122 @@ quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
          {'titulo': 'O que é Necrose?',
           'nivel': 'dificil',
           'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de luxo', 'C': 'Cidade Francesa', 'D': 'Morte de tecido orgânico'},
-          'correta': 'D'}
+          'correta': 'D'},
+
+          {'titulo': 'Qual Pais nao faz fronteira com o Brasil?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Argentina', 'B': 'Franca', 'C': 'Suriname', 'D': 'Chile'},
+          'correta': 'D'},
+
+          {'titulo': 'O que é sars-cov-2?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Uma banda de Rock', 'B': 'Uma marca de carro', 'C': 'Cidade Alema', 'D': 'Um virus'},
+          'correta': 'D'},
+
+           {'titulo': 'Quantos gols Keiresson fez oficialmente?',
+          'nivel': 'dificil',
+          'opcoes': {'A': '815', 'B': '46', 'C': '1100', 'D': '1057'},
+          'correta': 'B'},
+
+           {'titulo': 'Que esporte o Neymar joga?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Basquete', 'B': 'Futebol', 'C': 'WWE', 'D': 'polo aquatico'},
+          'correta': 'B'},
+
+           {'titulo': 'Quantos gols Apodi fez oficialmente?',
+          'nivel': 'dificil',
+          'opcoes': {'A': '815', 'B': '33', 'C': '1100', 'D': '1057'},
+          'correta': 'B'},
+
+           {'titulo': 'Quanto e 100 + 1000?',
+          'nivel': 'facil',
+          'opcoes': {'A': '815', 'B': '762', 'C': '1100', 'D': '1057'},
+          'correta': 'c'},
+
+          {'titulo': 'Qual o ponto de fusão da agua?',
+          'nivel': 'medio',
+          'opcoes': {'A': '120º C', 'B': '15º C', 'C': '0 C', 'D': '-180º C'},
+          'correta': 'C'},
+
+          {'titulo': 'Qual ano o Brasil foi descoberto?',
+          'nivel': 'facil',
+          'opcoes': {'A': '1200', 'B': '1500', 'C': '1210', 'D': '1180'},
+          'correta': 'B'},
+
+          {'titulo': 'Quantos milhoes de seguidores tem o The rock no instagram?',
+          'nivel': 'dificil',
+          'opcoes': {'A': '120', 'B': '15', 'C': '210', 'D': '347'},
+          'correta': 'D'},
+
+          {'titulo': 'Qual esporte O.j Simspon jogava?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Baseball', 'B': 'Polo', 'C': 'Golfe', 'D': 'Futebol americano'},
+          'correta': 'C'},
+
+          {'titulo': 'Quem foi Babe Ruth ?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Cozinheiro', 'B': 'Ator', 'C': 'Esportista', 'D': 'Comentarista'},
+          'correta': 'C'},
+
+          {'titulo': 'Como faço para chamar a Policia?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Ligue 101', 'B': 'Ligue 192', 'C': 'Ligue 190', 'D': 'Ligue 122'},
+          'correta': 'C'},
+
+          {'titulo': 'Como faço para chamar a emergencia nos EUA?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Ligue 911', 'B': 'Ligue 192', 'C': 'Ligue 109', 'D': 'Ligue 122'},
+          'correta': 'A'},
+
+          {'titulo': 'QUEM FUNDOU O SITE RAPPLER?',
+          'nivel': 'dificil',
+          'opcoes': {'A': 'Marie Curie', 'B': 'Paul Erdős', 'C': 'Clive W.J. Granger', 'D': 'Maria Ressa'},
+          'correta': 'D'},
+
+          {'titulo': 'Qual destas pessoas possui o maior numero de artigo publicado?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Marie Curie', 'B': 'Paul Erdős', 'C': 'Clive W.J. Granger', 'D': 'Maria Ressa'},
+          'correta': 'A'},
+
+          {'titulo': 'quem foi responsavel por criar o carro?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Nicolas Benz', 'B': 'Henry Ford', 'C': 'Clive W.J. Granger', 'D': 'Maria Ressa'},
+          'correta': 'A'},
+
+          {'titulo': 'Quem foi o primeiro homen a pisar na lua?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Thomas young', 'B': 'Paul Rudgier', 'C': 'T.W.J. Granger', 'D': 'Neil Armstrong'},
+          'correta': 'D'},
+
+          {'titulo': 'Qual destas pessoas nao jogou uma copa do mundo?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Alex De Souza', 'B': 'HULK', 'C': 'GRAFITTE', 'D': 'JO'},
+          'correta': 'A'},
+
+          {'titulo': 'Qual destas pessoas nao jogaram futebol?',
+          'nivel': 'medio',
+          'opcoes': {'A': 'Alex De Souza', 'B': 'HULK', 'C': 'GRAFITTE', 'D': 'OSCAR SCHIMITD'},
+          'correta': 'D'},
+
+          {'titulo': 'Qual destas pessoas nao sao barsileiras ?',
+          'nivel': 'facil',
+          'opcoes': {'A': 'Alex De Souza', 'B': 'Bruno Fernandez', 'C': 'GRAFITTE', 'D': 'JO'},
+          'correta': 'B'},
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
         ]
 
 s = transforma_base(quest)
