@@ -1,4 +1,7 @@
 import random
+import colorama
+from colorama import Fore
+
 from FUNCOES import *
 quest = [{'titulo': 'Qual o resultado da operação 57 + 32?',
           'nivel': 'facil',
@@ -215,7 +218,7 @@ while fir != 1:
     per8 = 0
     per9 = 0
     x = sorteia_questao_inedida(s,'facil',sort)
-    print(questao_para_texto(x,1))
+    print(Fore.RED + questao_para_texto(x,1))
     while fir1 != 1:
         resp = input(" \n Qual é a resposta? ")
         if resp.upper() == "PULAR":
@@ -289,7 +292,7 @@ while fir != 1:
         fir = 0
         fir1 = 0
         x = sorteia_questao_inedida(s,'facil',sort)
-        print(questao_para_texto(x,2))
+        print(Fore.RED + questao_para_texto(x,2))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -377,7 +380,7 @@ while fir != 1:
         fir1 = 0
         
         x = sorteia_questao_inedida(s,'facil',sort)
-        print(questao_para_texto(x,3))
+        print(Fore.RED + questao_para_texto(x,3))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -464,7 +467,7 @@ while fir != 1:
         fir1 = 0
         
         x = sorteia_questao_inedida(s,'medio',sort)
-        print(questao_para_texto(x,4))
+        print(Fore.BLUE + questao_para_texto(x,4))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -547,11 +550,11 @@ while fir != 1:
                 print("opcao invalida tente novamente! \n")
                 fir = 1
                 fir1 = 0
-     if per5 == 1:
+    if per5 == 1:
         fir = 0
         fir1 = 0
         x = sorteia_questao_inedida(s,'medio',sort)
-        print(questao_para_texto(x,5))
+        print(Fore.BLUE + questao_para_texto(x,5))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -639,7 +642,7 @@ while fir != 1:
         fir = 0
         fir1 = 0
         x = sorteia_questao_inedida(s,'dificil',sort)
-        print(questao_para_texto(x,6))
+        print(Fore.GREEN + questao_para_texto(x,6))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -726,7 +729,7 @@ while fir != 1:
         fir = 0
         fir1 = 0
         x = sorteia_questao_inedida(s,'dificil',sort)
-        print(questao_para_texto(x,7))
+        print(Fore.GREEN + questao_para_texto(x,7))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -813,7 +816,7 @@ while fir != 1:
         fir = 0
         fir1 = 0
         x = sorteia_questao_inedida(s,'dificil',sort)
-        print(questao_para_texto(x,8))
+        print(Fore.GREEN + questao_para_texto(x,8))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
@@ -900,7 +903,7 @@ while fir != 1:
         fir = 0
         fir1 = 0
         x = sorteia_questao_inedida(s,'dificil',sort)
-        print(questao_para_texto(x,9))
+        print(Fore.GREEN + questao_para_texto(x,9))
         while fir1 != 1:
             resp = input(" \n Qual é a resposta? ")
             if resp.upper() == "PULAR":
